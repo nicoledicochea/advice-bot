@@ -1,0 +1,55 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  text-align: center;
+  margin: 10em auto;
+  font-size: 62.5%;
+  color: #1e1e1e;
+  width: 60%;
+}
+
+h1 {
+  font-size: 4em;
+  border: #1e1e1e solid 1px;
+  padding: 5em 0;
+  margin: 0 0 0.4em;
+}
+
+button {
+  border: none;
+  padding: 5em;
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  width: 100%;
+
+}
+
+p {
+  font-size: 1.5em;
+  padding: 5em 0;
+  border: #1e1e1e solid 1px;
+}
+
+span {
+  font-weight: bold;
+  margin-left: 1em;
+  font-style: italic;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
