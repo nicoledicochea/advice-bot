@@ -20,3 +20,5 @@ When the user clicks the 'Get Advice' button, the fetch request is triggered and
 I added the Oscar Wilde quote because the section still had a border even when a request had not been made yet and I didn't want the awkward empty space there. I realized later that I could add in the 'classList.remove' function to have the border gone on page load, and then 'classList.add' the border once the button is clicked.
 
 But, I liked the Oscar Wilde so I kept it!
+
+I kept this method in mind when I worked on [Picturesque](https://nicoledicochea.github.io/picturesque-pixabay-api/).
